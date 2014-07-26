@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/rschaosid/livecounting-stats/issues"
   },
-  "homepage": "https://github.com/rschaosid/livecounting-stats"
+  "homepage": "https://github.com/rschaosid/livecounting-stats",
+  "dependencies": {
+    "reddit-client": "^0.1.0"
+  }
 }
