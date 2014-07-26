@@ -1,0 +1,16 @@
+{
+  "name": "livecounting-stats",
+  "version": "0.0.0",
+  "description": "analysis tools for the Live Counting thread on Reddit Live",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rschaosid/livecounting-stats.git"
+  },
+  "author": "rschaosid <rschaosid@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rschaosid/livecounting-stats/issues"
+  },
+  "homepage": "https://github.com/rschaosid/livecounting-stats"
+}
