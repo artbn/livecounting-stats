@@ -11,7 +11,7 @@ Currently this is three node.js scripts that use the reddit-client package.
 [Install node](http://nodejs.org/download/). Then:
 
 ```shell
-git clone git@github.com:rschaosid/livecounting-stats.git
+git clone https://github.com/rschaosid/livecounting-stats.git
 cd livecounting-stats
 npm install
 ```
