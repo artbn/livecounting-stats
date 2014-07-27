@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-var data = JSON.parse(fs.readFileSync('data.json').toString());
+var data = JSON.parse(fs.readFileSync('data.json').toString()).reverse();
 
 var authorsByValue = [], max = -Infinity, min = Infinity;
 var bad = [], duplicate = [], missing = [], valid = 0;
