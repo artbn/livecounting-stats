@@ -8,9 +8,9 @@ var bad = [], duplicate = [], missing = [], valid = 0;
 var comment, val;
 for(var i=0;i<data.length;i++) {
   comment = data[i];
-  val = /^[`*_\s]*(\d+)/.exec(comment.body);
+  val = /^[~`#*_\s\[]*([1-9]\d{0,2}(?:,\d{3})*|[1-9]\d{3})(?:[^\d](?:.|\n)*)?$/.exec(comment.body);
   if (val)
-    { val = parseInt(val[1]); }
+    { val = parseInt(val[1].replace(/,/g, '')); }
   else {
     if (!comment.stricken) {
       bad.push({
